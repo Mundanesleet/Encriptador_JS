@@ -12,32 +12,27 @@
 </head>
 
 <body>
+    <header>
+        <img class="logo" src="./static/img/logo.png" alt="">
+    </header>
 
     <main>
-        <div class="all">
-
-            <div class="seccion-all">
-                <div class="seccion">
-                    <header>
-                        <img class="logo" src="./static/img/logo.png" alt="">
-                    </header>
-
-                    <div class="box-cr">
-                        <textarea name="text" placeholder="Ingrese el texto aqui" class="container-text-box" id="text"
-                            cols="30" rows="5"></textarea>
-                    </div>
-
-                    <div class="info">
-                        <img src="./static/img/info.png" alt="info">
-                        <p>Solo letras minusculas y sin acentos</p>
-                    </div>
-
-                    <div class="container-btn">
-                        <input type="button" class="btn-cr" value="Encriptador" onclick="encriptar(); limpiarCaja();">
-                        <input type="button" class="btn-dr" value="Desencriptar" onclick="desencriptar(); limpiarCaja();">
-                    </div>
+        <div class="seccion">
+            <div class="all">
+                <div class="box-cr">
+                    <textarea name="text" placeholder="Ingrese el texto aqui" class="container-text-box" id="text"
+                        cols="30" rows="5"></textarea>
                 </div>
 
+                <div class="info">
+                    <img src="./static/img/info.png" alt="info">
+                    <p>Solo letras minusculas y sin acentos</p>
+                </div>
+
+                <div class="container-btn">
+                    <input type="button" class="btn-cr" value="Encriptador" onclick="encriptar(); limpiarCaja();">
+                    <input type="button" class="btn-dr" value="Desencriptar" onclick="desencriptar(); limpiarCaja();">
+                </div>
 
                 <div class="seccion2">
                     <div class="container-text-result" id="container-text-result">
@@ -56,10 +51,11 @@
                         </div>
                     </div>
 
+
                 </div>
+            </div>
 
             </div>
-        </div>
 
 
 
